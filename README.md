@@ -9,8 +9,8 @@
 
 'I play certain games in my downtown'
 
--League of Legends
--Hearts of Iron 4
--Victoria 3
--Civilization 5/6
+- League of Legends
+- Hearts of Iron 4
+- Victoria 3
+- Civilization 5/6
 
