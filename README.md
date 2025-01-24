@@ -7,7 +7,7 @@
 >I hope to pass this class with a good grade
 >I would like this class to not affect my GPA
 
-'I play certain games in my downtown'
+`I play certain games in my downtown`
 
 - League of Legends
 - Hearts of Iron 4
