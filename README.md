@@ -15,3 +15,11 @@
 - Civilization 5/6
 
 ---
+
+1. kmflewfe
+2. wefewmflkem
+3. welfelwfme
+
+[I also read in my spare time this is a article I am reading now](https://intcp.org/en/periodicals/tic/3/)
+
+![I also enjoy playing stardew valley here is a picture of my current farm]
