@@ -22,4 +22,4 @@
 
 [I also read in my spare time this is a article I am reading now](https://intcp.org/en/periodicals/tic/3/)
 
-![I also enjoy playing stardew valley here is a picture of my current farm]
+![I also enjoy playing stardew valley here is a picture of my current farm](image_2025-01-24_133826401.png)
