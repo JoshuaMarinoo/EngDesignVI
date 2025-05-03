@@ -26,7 +26,7 @@ Document the results on your GitHub repository
 
 ---
 ## Summary
-For this lab to work, I had to download gcc, gtkwave, ghdl and git. I also learned how to add varaibles to the system path through both the command terminal and through sysdm.cpl while I was getting the lab to work. In the lab I learned how to run VHDL files suing GHDL and then visualizing them through GTKWave so that I can see how they would work on an actual FPGA. GHDL is a free VHDL simulator that compiles and runs VHDL code, while GTKWave is a waveform viewer used to visualize digital signal traces (like VHDL/Verilog simulations).
+For this lab to work, I had to download gcc, gtkwave, ghdl and git. I also learned how to add varaibles to the system path through both the command terminal and through sysdm.cpl while I was getting the lab to work. In the lab I learned how to run VHDL files suing GHDL and then visualizing them through GTKWave so that I can see how they would work on an actual FPGA. GHDL is a free VHDL simulator that compiles and runs VHDL code, while GTKWave is a waveform viewer used to visualize digital signal traces (like VHDL/Verilog simulations). During the lab I was able to see how a half adder which adds two single-bit binary numbers and outputs a sum and a carry reacts to different inputs, the same thing with the D flip flop which stores one bit of data, capturing the input (D) at the clock edge and outputting it (Q) until the next clock cycle.
 
 ---
 Author: Joshua Marino </br>
