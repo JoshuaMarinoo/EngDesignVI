@@ -1,34 +1,32 @@
 # CPE 322
 ## Lab 1: GHDL & GTKWave
 ### Instructions:
-Go to the GitHub repository for Digital System Design( 
-[DSD GitHub Repository](https://github.com/kevinwlu/dsd.git)
-). Navigate to GHDL folder. Install GHDL & GTKWave. Run Half Adder Example and another example such as D Flip Flop or 4-1 Multiplexer. 
-Document results on your GitHub repository. 
+Go to the GitHub repository of Digital System Design (DSD)
+Go to the GHDL folder
+Install GHDL and GTKWave
+Run the Half Adder example
+Run another example such as D Flip-Flop or 4-to-1 Multiplexer
+Document the results on your GitHub repository
+
 
 ---
 
 ## Half Adder
 **Half Adder Code:**
-![Half Adder Code](https://github.com/ardensentak/CPE322/blob/main/Labs/Lab1/lab1_halfAdderCode.png)
+![Half Adder Code](HalfAdder.PNG)
 **Half Adder Result:**
-![Half Adder Results](https://github.com/ardensentak/CPE322/blob/main/Labs/Lab1/lab1_halfAdderResult.png)
+![Half Adder Results](HalfAdderResults.PNG)
 
 ---
 ## D Flip Flop
 **D Flip Flop Code:**
-![D Flip Flop Code](https://github.com/ardensentak/CPE322/blob/main/Labs/Lab1/lab1_DflipflopCode.png)
+![D Flip Flop Code](DFF.PNG)
 **D Flip Flop Result:**
-![D Flip Flop Result](https://github.com/ardensentak/CPE322/blob/main/Labs/Lab1/lab1_DflipflopResult.png)
-
----
-
-**Note: The following files were in my vhdl directory in order for the examples to properly execute**
-![vhdl directory files](https://github.com/ardensentak/CPE322/blob/main/Labs/Lab1/GHDL_filesInDirectory.png)
+![D Flip Flop Result](DFFResults.PNG)
 
 ---
 ## Summary
-In this lab I learned how to install and use GHDL and GTKWave. GHDL and GTKWave are tools used to simulate and debug circuits. GHDL is a compiler that translates VHDL files into machine code, while GTKWave is a visualization tool that can visualize circuit behavior. Note that VHDL is a language used to describe the behavior of digital circuits. These tools can be helpful when designing hardware, performing tests, and documenting and verifying digital systems. 
+For this lab to work, I had to download gcc, gtkwave, ghdl and git. I also learned how to add varaibles to the system path through both the command terminal and through sysdm.cpl while I was getting the lab to work. In the lab I learned how to run VHDL files suing GHDL and then visualizing them through GTKWave so that I can see how they would work on an actual FPGA. GHDL is a free VHDL simulator that compiles and runs VHDL code, while GTKWave is a waveform viewer used to visualize digital signal traces (like VHDL/Verilog simulations).
 
 ---
 Author: Joshua Marino </br>
