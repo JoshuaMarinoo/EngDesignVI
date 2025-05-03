@@ -2,7 +2,8 @@
 # CPE 322
 ## Lab 4: Django and Flask
 ### Instructions:
-![Instructions](Lab4Instructions.PNG)
+![image](https://github.com/user-attachments/assets/3ab6964f-86b5-408e-94ac-40bc503efe9b)
+
 
 # Django Project
 ---
