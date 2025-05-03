@@ -9,7 +9,7 @@
 ![image](https://github.com/user-attachments/assets/a03b705e-1a80-4ee9-a862-6ea7954f0ce4)
 ![image](https://github.com/user-attachments/assets/2662a542-f374-4bab-aec6-a479c5c1549f)
 
-
+connected my matlab account to the thingspeak account and was able to sign in
 ---
 
 ## Creating new channel
@@ -30,116 +30,38 @@ created a demo folder and copied thingspeak_feed.py and thingspeak_cpu_loop.py i
 installing the python packages needed for the next part
 
 ## creating and configuring the cpudata project in google cloud
+![image](https://github.com/user-attachments/assets/fbcfb0ec-647d-4961-bbc0-85c180b624f7)
+![image](https://github.com/user-attachments/assets/d01cad3f-adfe-4cfa-917b-14fb3c7bf565)
+![image](https://github.com/user-attachments/assets/26ffd667-52a4-4141-a1eb-b5531b6994a3)
+enabled the API's needed 
 
-
-I had to create an account and verify a payment method to get API key. Due to the API key being attached my account and card I will not be sharing it in this lab.
-However I added the line <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script> replacing the YOUR_API_KEY" part with my API key in the index file 
 
 ---
-## Copying static files
-![image](https://github.com/user-attachments/assets/553cdde1-16c9-40d9-9de3-e47a755a86e2)
+## Creating service account and getting JSON file
+![image](https://github.com/user-attachments/assets/f8e9b16b-04b6-4efd-93b0-b0d396fe3003)
+![image](https://github.com/user-attachments/assets/d8adfe5d-f4e4-457e-8c60-9e4fa1b8fb09)
 
-These files allow human computer interaction between a person and the webpage,fetches data from API, and affect visual styling of website.
-
----
-
-## Configuration of app
-![image](https://github.com/user-attachments/assets/9da7db29-ad31-4f43-b36d-a7fd521f8a6d)
-
-Creates database migration files for your myapp app.
-Applies all pending migrations to your database.
-Creates an admin user for Django's admin interface.
-I had problems with this but got it working. This wasr because during my copying steps i replaced view.py code with models.py code so I had to recopy view.py.
-
----
-
-## Running server
-![image](https://github.com/user-attachments/assets/41067693-4468-4ce0-ad01-1d74d2d5719b)
-![image](https://github.com/user-attachments/assets/9f6ca38d-2513-4271-abdb-d8cf86070d20)
-![image](https://github.com/user-attachments/assets/666cfdb1-3187-48a5-8516-7d467961cd72)
-![image](https://github.com/user-attachments/assets/5e410bf4-d810-4561-9f14-94b5b9a69572)
-
-Running the server, then logging in as admin and adding tempature data
-The final app is shown there as well
-
----
-# Django Rest Project
-
-## Creating the mycpu project and my app
-![image](https://github.com/user-attachments/assets/339de183-afe4-4ff6-8991-77028168d3d6)
-![image](https://github.com/user-attachments/assets/c71add28-02a9-4dc6-a810-05d8ca767314)
-![image](https://github.com/user-attachments/assets/2281d381-6acf-46c7-b16e-f6ab5d650667)
-
-
-django-admin startproject mycpu
-Creates a new Django project skeleton
-mycpu folder with core files
-python manage.py startapp myapp
-manage.py migrate
-Initializes the database and creates a db.sqlite3 file 
-Use sqlite for project
-Applies Django's default migrations (user/auth tables, etc.)
-cd into stevens from stevens to get to settings.py through notepad and adding an asterisk to ALLOWED_HOSTS and 'myapp' to INSTALLED_APPS
-
-
---- 
-## Copying key files from IOT 
-![image](https://github.com/user-attachments/assets/73eda226-9996-48d7-9432-690882fa611b)
-
-We have to copy these so that the stevens project works, otherwise we would have to create these py files from scratch in order to implement the stevens project
-
-## Getting the api key from google cloud console
-I had to create an account and verify a payment method to get API key. Due to the API key being attached my account and card I will not be sharing it in this lab.
-However I added the line <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script> replacing the YOUR_API_KEY" part with my API key in the index file 
-
----
-## Copying static files
-![image](https://github.com/user-attachments/assets/d7064e30-9962-49c1-b0f7-9ea9bb69b9c9)
-
-These files allow human computer interaction between a person and the webpage,fetches data from API, and affect visual styling of website.
-Additionally copying controller.py and changing admin password
-
----
-
-## Configuration of app
-![image](https://github.com/user-attachments/assets/371df27c-145a-46b6-bd78-a9e84e8be811)
-Creates database migration files for your myapp app.
-Applies all pending migrations to your database.
-Creates an admin user for Django's admin interface.
+created a service account with the JSON file associated with it so it can edit things
 
 
 ---
 
-## Running server
-![image](https://github.com/user-attachments/assets/d4f97cf7-c2bc-4f73-9710-2de0a8359a84)
-![image](https://github.com/user-attachments/assets/1d964cab-0c14-45d9-b23b-b28d88ccdcf9)
-![image](https://github.com/user-attachments/assets/6c4fb39c-4521-4548-a187-cd9c7e70e5b5)
-![image](https://github.com/user-attachments/assets/1545ea38-d6b5-47cb-bafa-dac277842598)
-![image](https://github.com/user-attachments/assets/17ada1ab-61e9-473d-9f2b-ff00f3fbb32a)
-![image](https://github.com/user-attachments/assets/b42d8573-1306-4c84-b2ca-0539ce004119)
+## Setting up spreadsheet
+![image](https://github.com/user-attachments/assets/d6f4dcec-dc57-4a2a-a60a-0590dba5a720)
+shared the sheet with service account and deleted rows and added headers
 
-
-Running the server, then logging in as admin and adding location data
-we also add
-2024 to the Dt List at http://127.0.0.1:8000/dt
-20 to the Cpu List at http://127.0.0.1:8000/cpu
-20 to the Mem List at http://127.0.0.1:8000/mem
-The final app is shown there as well
 
 ---
 
+## Running code
+![image](https://github.com/user-attachments/assets/55a1ac55-8333-4cbb-9156-8722de13e65c)
+![image](https://github.com/user-attachments/assets/233b405f-c474-4c1d-bbca-d2edafa83996)
+
+ I had to replace the name of the json file in the py code with the actual name I had, i did this through notepad I then ran it and saw the sheet get updated
+
 ---
-# Flask Project
-
-## Install Flask
-![image](https://github.com/user-attachments/assets/c5b0d167-887e-473a-a237-56dfb5c1b698)
-
---- 
-## Running hello_world.py
-![image](https://github.com/user-attachments/assets/d95c6315-a137-4927-bad3-d331387811a9)
-
 ## Summary
-There was a lot of troubleshooting that needed to be done to get this lab, done however after the lab now I feel I have a much better grasp of using APIs,Djnago, Flask and Django rest. 
+I learned how to use both google cloud and thingspeak platforms for API purposes, which seem very useful especially for IOT projects.
 
 ---
 Author: Joshua Marino </br>
