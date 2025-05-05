@@ -43,7 +43,7 @@ Running the py file and taking a look at each of the graphs coming from the py f
 ---
 
 ## Summary
-I have used pandas and these other libraries before so it was not to hard to configure everything to work and this lab was more like a refresher coruse for me.
+I have used pandas and these other libraries before so it was not to hard to configure everything to work and this lab was more like a refresher course for me.
 
 ---
 Author: Joshua Marino </br>
