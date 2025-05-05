@@ -9,7 +9,7 @@
 ![image](https://github.com/user-attachments/assets/a03b705e-1a80-4ee9-a862-6ea7954f0ce4)
 ![image](https://github.com/user-attachments/assets/2662a542-f374-4bab-aec6-a479c5c1549f)
 
-connected my matlab account to the thingspeak account and was able to sign in
+connected my matlab account to the Thingspeak account and was able to sign in
 ---
 
 ## Creating new channel
@@ -29,7 +29,7 @@ created a demo folder and copied thingspeak_feed.py and thingspeak_cpu_loop.py i
 ![image](https://github.com/user-attachments/assets/0218a589-e9f7-4c20-a2a9-c0c23941fca7)
 installing the python packages needed for the next part
 
-## creating and configuring the cpudata project in google cloud
+## creating and configuring the cpudata project in Google Cloud
 ![image](https://github.com/user-attachments/assets/fbcfb0ec-647d-4961-bbc0-85c180b624f7)
 ![image](https://github.com/user-attachments/assets/d01cad3f-adfe-4cfa-917b-14fb3c7bf565)
 ![image](https://github.com/user-attachments/assets/26ffd667-52a4-4141-a1eb-b5531b6994a3)
@@ -61,7 +61,7 @@ shared the sheet with service account and deleted rows and added headers
 
 ---
 ## Summary
-I learned how to use both google cloud and thingspeak platforms for API purposes, which seem very useful especially for IOT projects.
+I learned how to use both Google Cloud and Thingspeak platforms for API purposes, which seem very useful especially for IoT projects.
 
 ---
 Author: Joshua Marino </br>
