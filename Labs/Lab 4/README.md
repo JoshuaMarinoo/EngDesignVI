@@ -150,7 +150,7 @@ The final app is shown there as well
 ![image](https://github.com/user-attachments/assets/d95c6315-a137-4927-bad3-d331387811a9)
 
 ## Summary
-There was a lot of troubleshooting that needed to be done to get this lab, done however after the lab now I feel I have a much better grasp of using APIs,Djnago, Flask and Django rest. 
+There was a lot of troubleshooting that needed to be done to get this lab, done however after the lab now I feel I have a much better grasp of using APIs, Django, Flask, and Django REST 
 
 ---
 Author: Joshua Marino </br>
